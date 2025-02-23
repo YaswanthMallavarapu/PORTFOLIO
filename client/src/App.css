@@ -1,0 +1,82 @@
+body {
+  overflow-x: hidden;
+}
+.color {
+  background: linear-gradient(90deg, #8750f7 0, #2a1454);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bgc {
+  background-color: #8750f7;
+}
+.color1 {
+  /* color: #8750f7; */
+  color: #8750f7;
+}
+.color1:hover {
+  color: white;
+  transition: all 1s;
+}
+.service {
+  border: 2px solid rgb(235, 216, 216);
+}
+.service-title {
+  margin-bottom: 30px;
+}
+.navbar {
+  position: fixed !important;
+  top: 0 !important;
+}
+.service:hover {
+  background-color: #8750f7;
+  color: white !important;
+  transition: all 1s;
+}
+.color2 {
+  background-color: rgb(242, 227, 227);
+}
+.education:hover {
+  background-color: #8750f7;
+  color: white !important;
+}
+.skill-box {
+  height: 150px;
+  width: 150px;
+  background-color: #fcfafa;
+  border-radius: 50%;
+}
+.skill-logo {
+  transition: all 0.1s ease-in-out;
+}
+.skill-logo:hover {
+  transform: scale(1.2);
+}
+.form {
+  border: 1px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.input {
+  border: 1px solid rgb(73, 68, 68);
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  background-color: #f9f0f0;
+  font-weight: 600;
+  color: rgb(183, 150, 150);
+}
+.send-message {
+  background-color: #340593;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding-left: 25px;
+}
